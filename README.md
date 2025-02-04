@@ -7,7 +7,7 @@ The project involved the analysis of the Building Energy Benchmarking Dataset. T
 ### Methodology  
 In conducting the analysis, the following approach was taken:
 
-* **Data Cleaning and Preprocessing** \- This involved load and inspecting the dataset, handling missing data, as well as extracting and cleaning data using regular expressions  
+* **Data Cleaning and Preprocessing** \- This involved load and inspecting the dataset, handling missing data, as well as extracting and cleaning data using regular expressions. Regular expressions were used to extract numeric values from text-based numeric columns, standardize postal codes, as well as to clean and extract meaningful text from property names and addresses.
 * **Exploratory Data Analysis (EDA) and Aggregations** \- This part involved generating statistical summaries, aggregations and handling outliers  
 * **Data Visualization** \- Visualizations such as line charts, bar charts, and heatmaps were plotted to aid the data analysis  
 * **Further Analysis** \- This section involved performing some further analysis on the dataset such as correlation analysis and hypothesis testing  
